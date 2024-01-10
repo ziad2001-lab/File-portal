@@ -1,0 +1,80 @@
+﻿@model Files
+
+@*<form method="post" enctype="multipart/form-data" asp-action="Create" asp-controller="File">
+    <div class="form-group">
+        <label>Choose a file:</label>
+        <input type="file" name="File" class="form-control-file" required />
+        <span class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Upload File</button>
+</form>*@
+@*@if (ViewBag.FolderId != null)
+{
+    <p>FolderId from ViewBag: @ViewBag.FolderId</p>
+}
+else
+{
+    <p>FolderId is null</p>
+}*@
+
+
+@* Your modal markup *@
+<div class="modal fade" id="fileUploadModal" tabindex="-1" role="dialog" aria-labelledby="fileUploadModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="fileUploadModalLabel">Upload File</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Your file upload form goes here -->
+                <form method="post" enctype="multipart/form-data"   asp-action="Create" asp-controller="File" asp-route-FolderId="@ViewBag.FolderId">
+                    <div class="form-group">
+                        <label asp-for="FileUpload">Choose a file:</label>
+                        <input type="file" asp-for="FileUpload" class="form-control-file" required />   
+                        <input type="hidden" asp-for="FolderId" value="@ViewBag.FolderId" />
+
+                        <span asp-validation-for="FileUpload" class="text-danger"></span>
+                    </div>
+                     @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+                    {
+                        <div class="alert alert-danger" role="alert">
+                            @ViewBag.ErrorMessage
+
+                        </div>
+                    }
+                    <button type="submit" class="btn btn-primary">Upload File</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        // Trigger the modal when the document is ready
+        $(document).ready(function () {
+            $('#fileUploadModal').modal('show');
+       
+            // Close the modal when the user clicks the "Close" button
+            $('.close').click(function () {
+
+                $('#fileUploadModal').modal('hide');
+                window.location.href = '@Url.Action("Index", "File")' + '?folderId=' + @ViewBag.FolderId;
+
+            });
+
+            // Optional: Close the modal when the form is submitted successfully
+            $('form').submit(function () {
+                $('#fileUploadModal').modal('hide');
+            });
+        });
+    </script>
+}
+
+
+

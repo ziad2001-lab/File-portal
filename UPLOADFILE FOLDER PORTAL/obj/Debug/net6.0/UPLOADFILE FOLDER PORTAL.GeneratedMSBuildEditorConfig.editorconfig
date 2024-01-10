@@ -1,0 +1,144 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = UPLOADFILE_FOLDER_PORTAL
+build_property.RootNamespace = UPLOADFILE_FOLDER_PORTAL
+build_property.ProjectDir = C:\Users\zyedm\source\repos\UPLOADFILE FOLDER PORTAL\UPLOADFILE FOLDER PORTAL\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\zyedm\source\repos\UPLOADFILE FOLDER PORTAL\UPLOADFILE FOLDER PORTAL
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Views/Category/CategoryDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ2F0ZWdvcnlEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Views/File/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Views/File/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Views/File/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Views/File/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Views/File/info.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsZVxpbmZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Views/Folder/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9sZGVyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Views/Folder/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9sZGVyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Views/Folder/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9sZGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Views/Folder/Info.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9sZGVyXEluZm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Views/Shared/components/sidebar/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXGNvbXBvbmVudHNcc2lkZWJhclxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zyedm/source/repos/UPLOADFILE FOLDER PORTAL/UPLOADFILE FOLDER PORTAL/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-z1nly82qay

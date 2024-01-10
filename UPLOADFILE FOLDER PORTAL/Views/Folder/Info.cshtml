@@ -1,0 +1,97 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Folder
+
+@*
+
+<div class="card">
+    <div class="card-header d-flex justify-content-end">
+        <button type="button" class="close text-black" aria-label="Close" onclick="goBack()">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">@Model.FolderName</h5>
+       <p class="card-text">
+            Size: @Model.SizeInBytes bytes <!-- Assuming you have a Size property in your model -->
+        </p>
+
+        <p class="card-text">
+            Created Date: @Model.Createddate
+        </p>
+        <p class="card-text">
+            Created By: @Model.Createdby
+        </p>
+        <p class="card-text">
+            Modified Date: @Model.Modifieddate
+        </p>
+        <p class="card-text">
+            Modified By: @Model.Modifiedby
+        </p>
+        <p class="card-text">
+            Descripation : @Model.Description
+        </p>
+
+    </div>
+ <script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+</div>
+
+*@
+<div class="modal fade" id="infoFolderModal" tabindex="-1" role="dialog" aria-labelledby="infoFolderModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="infoFolderModalLabel">@Model.FolderName</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- info -->
+                <p class="card-text">
+                        Created Date: @Model.Createddate
+                    </p>
+                    <p class="card-text">
+                        Created By: @Model.Createdby
+                    </p>
+                    <p class="card-text">
+                        Modified Date: @Model.Modifieddate
+                    </p>
+                    <p class="card-text">
+                        Modified By: @Model.Modifiedby
+                    </p>
+                    <p class="card-text">
+                        Descripation : @Model.Description
+                    </p>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // Show the modal when the document is ready
+            $('#infoFolderModal').modal('show');
+
+            // Handle the close button click
+            $('.close').click(function () {
+                // Hide the modal
+                $('#infoFolderModal').modal('hide');
+
+                // Redirect to a specific URL
+                window.location.href = '@Url.Action("Index", "Folder")' + '?categoryId=' + @Model.CategoryId;
+            });
+             
+        });
+    </script>
+}

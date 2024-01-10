@@ -1,0 +1,299 @@
+﻿@using X.PagedList.Mvc.Core
+@using X.PagedList.Web.Common
+@*@model IEnumerable<Folder>
+
+@{
+    ViewData["Title"] = "Folders for Category";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<div class="d-flex justify-content-end mb-3">
+    <a asp-action="Create" asp-controller="Folder" asp-route-categoryId="@ViewBag.CategoryId" class="btn btn-primary">
+        <i class="fas fa-plus"></i> Create Folder
+    </a>
+</div>
+<style>
+    .folder-icon {
+        font-size: 60px; /* Adjust the font size as needed */
+        color: #ffc107; /* Adjust the color to match the Windows folder icon */
+    }
+</style>
+
+
+@if (Model != null)
+{
+    <div class="row">
+        @foreach (var folder in Model)
+        {
+            @if (folder.IsVisable == true)
+            {
+                <div class="col-md-3 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <i class="folder-icon fas fa-folder"></i> @folder.FolderName
+                            </h5>
+
+                            <form asp-controller="File" asp-action="index" method="post">
+                                <input type="hidden" name="folderId" value="@folder.Id" />
+                                <button type="submit" class="btn btn-info">
+                                    <i class="fas fa-eye"></i> 
+                                </button>
+                            </form>
+
+                            <form id="editForm" asp-controller="Folder" asp-action="Edit" asp-route-id="@folder.Id" asp-route-categoryId="@ViewBag.CategoryId" method="get">
+                                <button type="submit" class="btn btn-success">
+                                    <i class="fas fa-pen"></i> 
+                                </button>
+                            </form>
+
+                            <form id="deleteLink" asp-controller="Folder" asp-action="Delete" asp-route-FolderId="@folder.Id" method="post">
+                                <button type="button" class="btn btn-danger" onclick="confirmDelete()">
+                                    <i class="fas fa-trash"></i> 
+                                </button>
+                            </form>
+
+                            <script>
+                                function confirmDelete() {
+                                    if (confirm("Are you sure you want to delete?")) {
+                                        // Trigger the form submission
+                                         document.getElementById("deleteLink").click();
+                                    } else {
+                                        // User clicked "Cancel," do nothing or provide additional feedback if needed
+                                    }
+                                }
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+}
+*@
+@*@model IEnumerable<Folder>
+*@ 
+@model X.PagedList.IPagedList<Folder>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<div class="d-flex justify-content-between mb-3"> <!-- Align to the left and right -->
+    <h3>Category @ViewBag.CategoryName</h3>
+    <a asp-action="Create" asp-controller="Folder" asp-route-categoryId="@ViewBag.CategoryId" class="btn btn-primary">
+        <i class="fas fa-plus"></i> Create Folder
+    </a>
+</div>
+    
+<div class="row">
+    <div class="col mb-3">
+        <form asp-controller="Folder" asp-action="Index" method="get">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search..." name="searchQuery" value="@ViewBag.CurrentFilter" />
+                <input type="hidden" name="page" value="@ViewBag.Page" />
+                <input type="hidden" name="categoryId" value="@ViewBag.CategoryId" />
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-outline-secondary">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <button type="button" class="btn btn-outline-secondary" onclick="clearSearch()">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+<style>
+    .folder-icon {
+        font-size: 30px;
+        color: #ffc107;
+        cursor: pointer;
+    }
+
+    .folder-card {
+        position: relative;
+        background-color: #f8f9fa;
+        border: 1px solid #dee2e6;
+        border-radius: 1px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 5px;
+    }
+
+    .folder-card:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-body {
+        padding: 0.2rem; /* Adjust the padding to make it smaller */
+    }
+
+    .folder-options {
+        position: absolute;
+        top: 2px;
+        right: 2px;
+    }
+
+    .folder-name {
+        font-size: 12px;
+    }
+
+    .dropdown-menu a {
+        display: block;
+        padding: 0.1rem 0.1rem;
+        text-decoration: solid;
+        color: #343a40;
+    }
+    .three-dots {
+        position: absolute;
+        top: 2px;
+        right: 2px;
+        color: #000;
+        cursor: pointer;
+    
+    }
+    .dropdown-menu a:hover {
+/*        background-color: blue;
+*/        color: #fff;
+    }
+    .dropdown-menu a:hover {
+        color: #fff;
+    }
+
+    .dropdown-menu .edit-item:hover {
+        background-color: green;
+    }
+
+    .dropdown-menu .delete-item:hover {
+        background-color: red;
+    }
+
+    .dropdown-menu .info-item:hover {
+        background-color: blue;
+    }
+    .dropdown-menu button {
+        font-size: small; /* Adjust the font size of the three dots button */
+        padding: 0.1rem 0.2rem; /* Adjust the padding */
+    }
+</style>
+
+
+@*@if (Model != null)
+{
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+        @foreach (var folder in Model)
+        {
+            @if (folder.IsVisable == true)
+            {
+                <div class="col mb-2">
+                    <div class="card folder-card">
+                        <div class="card-body text-center">
+                            <i class="folder-icon fas fa-folder" onclick="openFolder('@folder.Id')"></i>
+                            <h5 class="card-title folder-name mt-2">@folder.FolderName</h5>
+                            <div class="folder-options">
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle p-1" type="button" id="dropdownMenuButton_@folder.Id" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-ellipsis-v"></i>
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton_@folder.Id">
+                                        <a class="dropdown-item" href="@Url.Action("Edit", "Folder", new { id = folder.Id, categoryId = ViewBag.CategoryId })">
+                                            <i class="fas fa-pen"></i> Edit
+                                        </a>
+                                        <a class="dropdown-item" href="#" onclick="confirmDelete('@folder.Id')">
+                                            <i class="fas fa-trash"></i> Delete
+                                        </a>
+                                        <a class="dropdown-item" href="@Url.Action("Info", "Folder", new { folderId = folder.Id})">
+                                            <i class="fas fa-info-circle"></i> Info
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+}*@
+@if (Model != null && Model.Count > 0)
+{
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-6">
+        @foreach (var folder in Model)
+        {
+            @if (folder.IsVisable == true)
+            {
+                <div class="col mb-2">
+                    <div class="card folder-card">
+                        <div class="card-body text-center">
+                            <i class="folder-icon fas fa-folder" onclick="openFolder('@folder.Id')"></i>
+                            <h5 class="card-title folder-name mt-2">@folder.FolderName</h5>
+                            <div class="folder-options">
+                                <div class="dropdown">
+                                    <button type="button" id="dropdownMenuButton_@folder.Id" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-ellipsis-v"></i>
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton_@folder.Id">
+                                        <a class="dropdown-item " style="color: blue" href="@Url.Action("Edit", "Folder", new { id = folder.Id, categoryId = ViewBag.CategoryId })">
+                                            <i class="fas fa-pen"></i> Edit
+                                        </a>
+                                        <a class="dropdown-item " style="color: red"href="#" onclick="confirmDelete('@folder.Id')">
+                                            <i class="fas fa-trash"></i> Delete
+                                        </a>
+                                        <a class="dropdown-item " style="color: black"href="@Url.Action("Info", "Folder", new { folderId = folder.Id})">
+                                            <i class="fas fa-info-circle"></i> Info
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                }
+        }
+    </div>
+
+    <!-- Pagination controls -->
+<div class="text-center mt-3">
+    <div class="d-flex justify-content-center">
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page, categoryId = ViewBag.CategoryId }),
+            new PagedListRenderOptions
+            {
+                LiElementClasses = new[] { "page-item" },
+                PageClasses = new[] { "page-link" }
+            })
+
+    </div>
+</div>
+}
+else
+{
+    <p>No folders found.</p>
+}
+
+<script>
+    function openFolder(folderId) {
+        window.location.href = '@Url.Action("Index", "File")' + '?folderId=' + folderId;
+    }
+
+    function confirmDelete(folderId) {
+        if (confirm("Are you sure you want to delete?")) {
+            window.location.href = '@Url.Action("Delete", "Folder")' + '?folderId=' + folderId;
+        }
+    }   
+</script>
+<script>
+    function clearSearch() {
+        document.querySelector('input[name="searchQuery"]').value = '';
+      window.location.href = '@Url.Action("Index", "Folder")' + '?categoryId=' + @ViewBag.CategoryId;
+
+    }
+</script>

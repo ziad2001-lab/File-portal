@@ -1,0 +1,429 @@
+﻿++Solution 'UPLOADFILE FOLDER PORTAL' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:UPLOADFILE FOLDER PORTAL.sln
+++UPLOADFILE FOLDER PORTAL
+i:{00000000-0000-0000-0000-000000000000}:UPLOADFILE FOLDER PORTAL
+++Connected Services 
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:>1093
+++Dependencies
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:>1092
+++Properties
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\properties\
+++wwwroot
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\
+++Areas
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\areas\
+++Identity
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\areas\identity\
+++Pages
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\areas\identity\pages\
+++_ViewStart.cshtml
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\areas\identity\pages\_viewstart.cshtml
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\views\_viewstart.cshtml
+++Controllers
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\controllers\
+++CategoryController.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\controllers\categorycontroller.cs
+++FileController.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\controllers\filecontroller.cs
+++FolderController.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\controllers\foldercontroller.cs
+++HomeController.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\controllers\homecontroller.cs
+++Data
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\data\
+++Models
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\models\
+++BaseClass.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\models\baseclass.cs
+++Category.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\models\category.cs
+++CustomizedUserIdentity.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\models\customizeduseridentity.cs
+++Department.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\models\department.cs
+++ErrorViewModel.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\models\errorviewmodel.cs
+++FileExtensionMapping.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\models\fileextensionmapping.cs
+++Files.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\models\files.cs
+++Folder.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\models\folder.cs
+++View companent
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\view companent\
+++Views
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\views\
+++Category
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\views\category\
+++File
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\views\file\
+++Folder
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\views\folder\
+++Home
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\views\home\
+++Index.cshtml
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\views\home\index.cshtml
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\views\category\index.cshtml
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\views\file\index.cshtml
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\views\folder\index.cshtml
+++Privacy.cshtml
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\views\home\privacy.cshtml
+++Shared
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\views\shared\
+++components
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\views\shared\components\
+++sidebar
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\views\shared\components\sidebar\
+++_Layout.cshtml
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\views\shared\_layout.cshtml
+++_Layout.cshtml.css
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\views\shared\_layout.cshtml.css
+++_LoginPartial.cshtml
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\views\shared\_loginpartial.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\views\shared\_validationscriptspartial.cshtml
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\areas\identity\pages\_validationscriptspartial.cshtml
+++Error.cshtml
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\views\shared\error.cshtml
+++_ViewImports.cshtml
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\views\_viewimports.cshtml
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\areas\identity\pages\account\_viewimports.cshtml
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\areas\identity\pages\_viewimports.cshtml
+++appsettings.json
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\appsettings.json
+++Program.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\program.cs
+++SQL Server Express LocalDB (Local) (ConnectionStrings:DefaultConnection)
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:>1124
+++Analyzers
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:analyzers
+++Frameworks
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:frameworks
+++Packages
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:packages
+++launchSettings.json
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\properties\launchsettings.json
+++serviceDependencies.json
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\properties\servicedependencies.json
+++css
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\css\
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\
+++Files
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\files\
+++js
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\js\
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\js\
+++lib
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\
+++Photos
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\photos\
+++favicon.ico
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\favicon.ico
+++Migrations
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\data\migrations\
+++ApplicationDbContext.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\data\applicationdbcontext.cs
+++sidebar.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\view companent\sidebar.cs
+++CategoryDetail.cshtml
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\views\category\categorydetail.cshtml
+++Create.cshtml
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\views\category\create.cshtml
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\views\file\create.cshtml
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\views\folder\create.cshtml
+++Delete.cshtml
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\views\file\delete.cshtml
+++Edit.cshtml
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\views\file\edit.cshtml
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\views\folder\edit.cshtml
+++Info.cshtml
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\views\folder\info.cshtml
+++Default.cshtml
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\views\shared\components\sidebar\default.cshtml
+++appsettings.Development.json
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\appsettings.development.json
+++MessagePackAnalyzer
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+++Microsoft.AspNetCore.Analyzers
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\program files\dotnet\sdk\6.0.125\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.25\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.25\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\program files\dotnet\sdk\6.0.125\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\program files\dotnet\sdk\6.0.125\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\program files\dotnet\sdk\6.0.125\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\program files\dotnet\sdk\6.0.125\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\program files\dotnet\sdk\6.0.125\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.24\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.25\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\program files\dotnet\sdk\6.0.125\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.25\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\microsoft.netcore.app
+++Microsoft.AspNet.Mvc (5.3.0)
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:>1119
+++Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore (6.0.24)
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:>1117
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.24)
+++Microsoft.AspNetCore.Identity.UI (6.0.24)
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.24)
+++Microsoft.EntityFrameworkCore.Tools (6.0.24)
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.16)
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:>1121
+++Swashbuckle.AspNetCore (6.5.0)
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:>1116
+++X.PagedList.Mvc.Core (8.4.7)
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:>1123
+++serviceDependencies.local.json
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\properties\servicedependencies.local.json
+++site.css
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\css\site.css
+++bartels2021.pdf
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\files\bartels2021.pdf
+++CamScanner 04-26-2023 15.17.pdf
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\files\camscanner 04-26-2023 15.17.pdf
+++Copy of Mobile Computing, Assignment-1.docx
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\files\copy of mobile computing, assignment-1.docx
+++cv (1).pdf
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\files\cv (1).pdf
+++emp3.png
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\files\emp3.png
+++emp4.png
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\files\emp4.png
+++empo.png
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\files\empo.png
+++IEEE_Conference_Template__1_.pdf
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\files\ieee_conference_template__1_.pdf
+++Learn Python The Hard Way 3rd Edition V413HAV.pdf
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\files\learn python the hard way 3rd edition v413hav.pdf
+++momen1212313.pdf
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\files\momen1212313.pdf
+++site.js
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\js\site.js
+++bootstrap
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\
+++jquery
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\jquery\
+++jquery-validation
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\jquery-validation-unobtrusive\
+++default file.jpeg
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\photos\default file.jpeg
+++docx.jpeg
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\photos\docx.jpeg
+++jpeg.jpeg
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\photos\jpeg.jpeg
+++OIP.jpeg
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\photos\oip.jpeg
+++pdf.jpeg
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\photos\pdf.jpeg
+++png.jpeg
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\photos\png.jpeg
+++00000000000000_CreateIdentitySchema.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\data\migrations\00000000000000_createidentityschema.cs
+++20231029115609_intial.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\data\migrations\20231029115609_intial.cs
+++20231102074939_init.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\data\migrations\20231102074939_init.cs
+++20231112084244_inital.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\data\migrations\20231112084244_inital.cs
+++20231112123617_init3.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\data\migrations\20231112123617_init3.cs
+++20231112124046_init4.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\data\migrations\20231112124046_init4.cs
+++20231112124933_init5.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\data\migrations\20231112124933_init5.cs
+++20231112125137_init6.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\data\migrations\20231112125137_init6.cs
+++20231225215032_intia.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\data\migrations\20231225215032_intia.cs
+++20240103113716_Add-migration.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\data\migrations\20240103113716_add-migration.cs
+++20240103114430_DepartmentId.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\data\migrations\20240103114430_departmentid.cs
+++20240103114643_DeparrmentId.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\data\migrations\20240103114643_deparrmentid.cs
+++20240103121228_AddDepartmentToAspNetUsers.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\data\migrations\20240103121228_adddepartmenttoaspnetusers.cs
+++ApplicationDbContextModelSnapshot.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\data\migrations\applicationdbcontextmodelsnapshot.cs
+++dist
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\jquery\dist\
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\jquery\license.txt
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++00000000000000_CreateIdentitySchema.Designer.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\data\migrations\00000000000000_createidentityschema.designer.cs
+++20231029115609_intial.Designer.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\data\migrations\20231029115609_intial.designer.cs
+++20231102074939_init.Designer.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\data\migrations\20231102074939_init.designer.cs
+++20231112084244_inital.Designer.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\data\migrations\20231112084244_inital.designer.cs
+++20231112123617_init3.Designer.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\data\migrations\20231112123617_init3.designer.cs
+++20231112124046_init4.Designer.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\data\migrations\20231112124046_init4.designer.cs
+++20231112124933_init5.Designer.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\data\migrations\20231112124933_init5.designer.cs
+++20231112125137_init6.Designer.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\data\migrations\20231112125137_init6.designer.cs
+++20231225215032_intia.Designer.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\data\migrations\20231225215032_intia.designer.cs
+++20240103113716_Add-migration.Designer.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\data\migrations\20240103113716_add-migration.designer.cs
+++20240103114430_DepartmentId.Designer.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\data\migrations\20240103114430_departmentid.designer.cs
+++20240103114643_DeparrmentId.Designer.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\data\migrations\20240103114643_deparrmentid.designer.cs
+++20240103121228_AddDepartmentToAspNetUsers.Designer.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\data\migrations\20240103121228_adddepartmenttoaspnetusers.designer.cs
+++jquery.js
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++bootstrap.css
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap-utilities.css
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+++bootstrap.js
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++jquery.min.js
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\jquery\dist\jquery.min.js
+++additional-methods.min.js
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++bootstrap.css.map
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap.rtl.css
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+++bootstrap-grid.css.map
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-grid.rtl.css
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+++bootstrap-reboot.css.map
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap-reboot.rtl.css
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+++bootstrap-utilities.css.map
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+++bootstrap-utilities.rtl.css
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+++bootstrap.bundle.js
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.esm.js
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+++bootstrap.js.map
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.min.map
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.min.css.map
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap.rtl.css.map
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+++bootstrap-grid.min.css.map
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-grid.rtl.css.map
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+++bootstrap-reboot.min.css.map
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap-reboot.rtl.css.map
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+++bootstrap-utilities.min.css.map
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css.map
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+++bootstrap.bundle.js.map
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.esm.js.map
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+++bootstrap.min.js.map
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++bootstrap.rtl.min.css.map
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+++bootstrap-grid.rtl.min.css.map
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.rtl.min.css.map
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.rtl.min.css.map
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+++bootstrap.bundle.min.js.map
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++bootstrap.esm.min.js.map
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.23)
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:>1130
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.23)
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:>1132
+++Microsoft.EntityFrameworkCore.Tools (6.0.23)
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:>1134
+++Microsoft.AspNetCore.Identity.UI (6.0.23)
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:>1135
+++Account
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\areas\identity\pages\account\
+++Login.cshtml
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\areas\identity\pages\account\login.cshtml
+++Register.cshtml
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\areas\identity\pages\account\register.cshtml
+++Login.cshtml.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\areas\identity\pages\account\login.cshtml.cs
+++Register.cshtml.cs
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\areas\identity\pages\account\register.cshtml.cs
+++ScaffoldingReadMe.txt
+i:{8a634bbc-1232-4d09-a61c-8d9eb841057f}:c:\users\zyedm\source\repos\uploadfile folder portal\uploadfile folder portal\scaffoldingreadme.txt

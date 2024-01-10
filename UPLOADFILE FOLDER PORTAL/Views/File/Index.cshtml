@@ -1,0 +1,191 @@
+﻿@using X.PagedList.Mvc.Core
+@using X.PagedList.Web.Common
+@*@model IEnumerable<Files>
+*@
+@model X.PagedList.IPagedList<Files>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<div class="d-flex justify-content-between mb-3"> <!-- Align to the left and right -->
+<h3>Folder @ViewBag.FolderName</h3>
+    <a asp-action="Create" asp-controller="File" asp-route-FolderId="@ViewBag.FolderId" class="btn btn-primary">
+        <i class="fas fa-upload"></i> Upload File
+    </a>
+</div>
+<div class="row">
+    <div class="col mb-3">
+        <form asp-controller="File" asp-action="Index" method="get">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search..." name="searchQuery" value="@ViewBag.CurrentFilter" />
+                <input type="hidden" name="page" value="@ViewBag.Page" />
+                <input type="hidden" name="folderId" value="@ViewBag.FolderId" />
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-outline-secondary">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <button type="button" class="btn btn-outline-secondary" onclick="clearSearch()">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+    <style>
+  .responsive-image {
+    max-width: 30%;
+    height: 20%;
+}
+.file-options {
+        position: absolute;
+        top: 2px;
+        right: 2px;
+    }
+
+     .folder-card {
+        position: relative;
+        background-color: #f8f9fa;
+        border: 1px solid #dee2e6;
+        border-radius: 1px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 5px;
+    }
+
+    .folder-card:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-body {
+        padding: 0.2rem; /* Adjust the padding to make it smaller */
+    }
+
+    .folder-options {
+        position: absolute;
+        top: 2px;
+        right: 2px;
+    }
+
+    .folder-name {
+        font-size: 12px;
+    }
+
+    .dropdown-menu a {
+        display: block;
+        padding: 0.1rem 0.1rem;
+        text-decoration: solid;
+        color: #343a40;
+    }
+    .three-dots {
+        position: absolute;
+        top: 2px;
+        right: 2px;
+        color: #000;
+        cursor: pointer;
+    
+    }
+    .dropdown-menu a:hover {
+/*        background-color: black;
+*/        color: #fff;
+    }
+    .dropdown-menu a:hover {
+        color: #fff;
+    }
+
+    .dropdown-menu .edit-item:hover {
+        background-color:  darkgreen;
+    }
+
+    .dropdown-menu .delete-item:hover {
+        background-color: red;
+    }
+
+    .dropdown-menu .dowload-item:hover {
+        background-color: blue;
+    }
+    .dropdown-menu button {
+        font-size: small; /* Adjust the font size of the three dots button */
+        padding: 0.1rem 0.2rem; /* Adjust the padding */
+    }
+    </style>
+
+    @if (Model != null && Model.Count > 0 && Model.Any(file => file.IsVisable))
+    {
+        <div class=" row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-6">
+        @foreach (var file in Model)
+        {
+            @if (file.IsVisable)
+            {
+               <div class="col-md-3 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="@Url.Content(file.FileExtensionMapping.ImageUrl)" alt="@file.FileName" class="responsive-image" />
+                            <h5 class="card-title folder-name mt-2">@file.FileName</h5>
+
+                            <div class="file-options">
+                                <div class="dropdown">
+                                    <button type="button" id="dropdownMenuButton_@file.Id" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-ellipsis-v"></i>
+                                    </button>
+                                    <div class="dropdown-menu  " aria-labelledby="dropdownMenuButton_@file.Id">
+                                        <a class="dropdown-item"style="color: green"  asp-action="Download" asp-controller="File" asp-route-fileId="@file.Id">
+                                            <i class="fas fa-download"style="color:green;"></i> Download
+                                        </a>
+                                        <a class="dropdown-item "style="color: blue" asp-action="Edit" asp-controller="File" asp-route-fileId="@file.Id" asp-route-filename="@file.FileName" asp-route-folderId="@file.FolderId">
+                                            <i class="fas fa-edit" style="color:blue;"></i> Edit
+                                        </a>
+                                          <a class="dropdown-item " style="color: black"href="@Url.Action("Info", "File", new { fileid = file.Id})">
+                                            <i class="fas fa-info-circle"></i> Info
+                                        </a>
+                                       <a class="dropdown-item" id="deleteLink" style="color: red" method="post" onclick="confirmDelete(@file.Id)">
+                                            <i class="fas fa-trash" style="color:red;"></i> Delete
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            }
+          
+        }
+        </div>
+        <!-- Pagination controls -->
+        <div class="text-center mt-3">
+            <div class="d-flex justify-content-center">
+                @Html.PagedListPager(Model, page => Url.Action("Index", new { page, folderId = ViewBag.FolderId }),
+                    new PagedListRenderOptions
+                    {
+                        LiElementClasses = new[] { "page-item" },
+                        PageClasses = new[] { "page-link" }
+                    })
+            </div>
+        </div>
+    }
+    else
+    {
+        <p>No files found.</p>
+    }
+
+
+<script>
+    function confirmDelete(fileId) {
+        if (confirm("Are you sure you want to delete?")) {
+            // User clicked "OK," trigger the hidden link
+            window.location.href = '@Url.Action("Delete", "File")' + '?fileId=' + fileId;
+        } else {
+            // User clicked "Cancel," do nothing or provide additional feedback if needed
+        }
+    }
+</script>
+
+<script>
+    function clearSearch() {
+        document.querySelector('input[name="searchQuery"]').value = '';
+      window.location.href = '@Url.Action("Index", "File")' + '?folderId=' + @ViewBag.FolderId;
+
+    }
+</script>
+
+
