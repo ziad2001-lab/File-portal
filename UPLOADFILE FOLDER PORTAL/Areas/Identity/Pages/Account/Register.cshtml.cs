@@ -158,6 +158,8 @@ namespace UPLOADFILE_FOLDER_PORTAL.Areas.Identity.Pages.Account
                     BirthDate = Input.BirthDate,
                     UserName = Input.UserName
                 };
+                ((ApplicationUser)user).DepartmentId = Input.DepartmentId;
+
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
                 var result = await _userManager.CreateAsync(user, Input.Password);
