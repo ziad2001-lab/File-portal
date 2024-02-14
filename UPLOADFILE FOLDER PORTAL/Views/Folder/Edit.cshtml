@@ -1,0 +1,62 @@
+﻿     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+@model Folder
+
+<!-- Edit Folder Modal -->
+<div class="modal fade" id="editFolderModal" tabindex="-1" role="dialog" aria-labelledby="editFolderModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editFolderModalLabel">Edit Folder</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Your edit form goes here -->
+                <form  asp-controller="Folder"  asp-action="Edit" method="post">
+                    <div class="form-group">
+                        <label asp-for="FolderName">Folder Name</label> 
+                        <input asp-for="FolderName" class="form-control"   required/>
+                        <span asp-validation-for="FolderName" class="text-danger"></span>
+                    </div>
+                    <input type="hidden" id="folderId" name="FolderId" />
+                    <input type="hidden" id="categoryId" name="categoryId" />
+                   @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+                    {
+                        <div class="alert alert-danger" role="alert">
+                            @ViewBag.ErrorMessage
+                        </div>
+                    }
+                    <button type="submit" class="btn btn-primary">Save Changes</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+
+    <script>
+        // Trigger the modal when the document is ready
+        $(document).ready(function () {
+           
+            // Show the modal
+            $('#editFolderModal').modal('show');
+       
+            $('.close').click(function () {
+                $('#editFolderModal').modal('hide');
+                window.location.href = '@Url.Action("Index", "Folder")' + '?categoryId=' + @ViewBag.CategoryId;
+            });
+
+            $('form').submit(function () {
+                
+                    // Hide the modal if there are no errors
+                    $('#editFolderModal').modal('hide');
+                
+            });
+        });
+    </script>
+}
+

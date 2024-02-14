@@ -1,0 +1,62 @@
+﻿@model Files
+
+<div class="modal fade" id="editFileModal" tabindex="-1" role="dialog" aria-labelledby="editFileModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editFileModalLabel">Edit File</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="editForm" asp-controller="File" asp-action="Edit" method="post">
+                    <div class="form-group">
+                        <label asp-for="FileName">File Name</label> 
+                        <input asp-for="FileName" class="form-control" id="editFileName" name="FileName" required>
+                        <span asp-validation-for="FileName" class="text-danger"></span>
+                    </div>
+                       @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+                    {
+                        <div class="alert alert-danger" role="alert">
+                            @ViewBag.ErrorMessage
+
+                        </div>
+                    }
+                  
+                    <!-- Hidden fields -->
+                    <input type="hidden" asp-for="Id" />
+                    <input type="hidden" asp-for="FolderId" />
+
+                    <button type="submit" class="btn btn-primary">Save Changes</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        // Function to close the modal and redirect to the file index page
+    
+          $('.close').click(function () {
+                //window.history.back();
+             window.location.href = '@Url.Action("Index", "File")' + '?FolderId=' + @ViewBag.FolderId;
+
+
+            });
+        // Trigger the modal when the document is ready
+        $(document).ready(function () {
+            // Show the modal
+            $('#editFileModal').modal('show');
+
+            // Extract file name without extension and populate the input field
+            var fullFileName = '@Model.FileName';
+            var fileNameWithoutExtension = fullFileName.substring(0, fullFileName.lastIndexOf('.'));
+            $('#editFileName').val(fileNameWithoutExtension);
+        });
+    </script>
+}

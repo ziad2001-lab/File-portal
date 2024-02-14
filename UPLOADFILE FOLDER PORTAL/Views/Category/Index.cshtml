@@ -1,0 +1,47 @@
+﻿
+@model List<Category>
+
+@*<h1>Main View</h1>
+
+@await Html.PartialAsync("_index", Model) <!-- Pass the list of categories to the partial view -->
+*@
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+  
+
+  @*  <h1>
+        test partial
+    </h1>*@
+   @*         <div class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+    <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+        <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+            <span class="fs-5 d-none d-sm-inline">Menu</span>
+        </a>
+        <h2 style="color: white !important">Categories</h2>
+        <table class="table">
+            @if (Model != null)
+            {
+                @foreach (var category in Model)
+                {
+                    if (category != null)
+                    {
+                        <tr>
+                            <td>
+                                <a asp-action="index" asp-controller="Folder" asp-route-categoryId="@category.Id" class="text-white">
+                                    @category.Name
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                }
+            }
+        </table>
+        <a href="@Url.Action("Create", "Category")" class="btn btn-primary mt-3">Add Category</a>
+    </div>
+</div>*@
+ 

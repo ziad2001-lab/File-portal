@@ -1,0 +1,76 @@
+﻿@model Folder
+
+@{
+    SelectList CategoryList = new SelectList(ViewBag.Category, "Id", "Name");
+}
+@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @ViewBag.ErrorMessage
+    </div>
+}
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="createFolderModal" tabindex="-1" role="dialog" aria-labelledby="createFolderModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="createFolderModalLabel">Create Folder</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Your form goes here -->
+                <form asp-action="Create" asp-controller="Folder" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="FolderName">Folder Name</label>
+                        <input asp-for="FolderName" class="form-control" id="folderName" name="FolderName" required>
+                        <span asp-validation-for="FolderName" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="FolderPath">Folder Path</label>
+                        <input asp-for="FolderPath" class="form-control" id="folderpath" name="FolderPath" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="CategoryId" class="small mb-1">Category</label>
+                        <select asp-for="CategoryId" asp-items="CategoryList" class="form-select" aria-label="Select a category" required>
+                            <option value="">Select a category</option>
+                        </select>
+                    </div>
+                     @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+                    {
+                        <div class="alert alert-danger" role="alert">
+                            @ViewBag.ErrorMessage
+
+                        </div>
+                    }
+                    <button type="submit" class="btn btn-primary">Create Folder</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script>
+        // Show the modal on page load
+        $(document).ready(function () {
+            $('#createFolderModal').modal('show');
+        });
+
+        // Close the modal when the user clicks the "Close" button
+        $('.close').click(function () {
+            $('#createFolderModal').modal('hide');
+             window.location.href = '@Url.Action("Index", "Folder")' + '?categoryid=' + @ViewBag.CategoryId;
+
+        });
+    </script>
+}
+
